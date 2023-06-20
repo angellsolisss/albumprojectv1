@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+h1{
+    font: 80px Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+}
+
+h2{
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font: 30px Arial, Helvetica, sans-serif;
+}
+
+p{
+    font: 20px Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 155px;
+    height: 100%;
+    font: 20px Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(100,100,100);
+    padding: 20px
+}
+
+.wrapper .sidebar a{
+    color: rgb(100,100,100);
+    text-decoration: none;
+}
+
+.wrapper .sidebar a:hover{
+    color: #1ED760;
+    text-decoration: none;
+}
+
+
+.header {
+    padding: 45px;
+    padding-left: 200px;
+    background: linear-gradient(180deg, #2b6161, rgb(24,24,24));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.imgLeft {
+    float: left;
+    margin: 0px 20px 20px 20px;
+}
+
+.imgRight{
+    float:right;
+    margin: 0px 0px 0px 20px;
+}
+
+.songInfo {
+    padding: 5px 80px 215px 225px ;
+    background-color: rgb(24,24,24);
+    background-size: cover;
+    color: white;
+    font: 20px Arial, Helvetica, sans-sarif;
+}
+
+.floatRight{
+    float: right;
+    color: rgb(100,100,100)
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.emphasize{
+    font-weight: bold;
+    color: #1ED760;
+}
